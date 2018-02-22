@@ -97,7 +97,7 @@ public class Villager extends Humanoid {
 		return closest;
 	}
 
-	// work method for the villager to execute his jobs
+	// work method for the villager to execute his jobs 
 	public void work() {
 		if (jobs.get(0) != null) {
 			if (!jobs.get(0).isCompleted()) {
